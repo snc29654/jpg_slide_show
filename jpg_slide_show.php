@@ -36,6 +36,8 @@ print ");";
         print "tm = setInterval(\"change()\",1000);";
     print "}";
     print "</script>";
+    print "<body style=\"background-repeat: no-repeat;\"> ";
+
 
 print "</head>";
 print "<body onLoad=\"tm()\">";
